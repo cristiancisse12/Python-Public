@@ -1,0 +1,28 @@
+#capital_inicial = int(input("Ingrese capital inicial "))
+#tasa_interes = float(input("Ingrese la tasa de interés "))
+#n = int(input("¿A cuantos meses estará? "))
+#valor_futuro = ("Su interés futuro es de: ",capital_inicial * (pow(1 + tasa_interes, n)))
+#print(valor_futuro)
+#if valor_futuro >= capital_inicial:
+#    print(valor_futuro)
+
+#72/tasa de rendimiento
+
+#tasa_rendimiento = int(input("Ingrese la tasa de interés "))
+#anios = (72 / tasa_rendimiento)
+#print(anios)
+
+#¿En qué consiste la regla del 72?
+#Con esta regla, los inversores pueden estimar cuántos años se necesitarán para que una inversión inicial se duplique. Si conoces la tasa de rendimiento, puedes conocer el tiempo necesario y si conoces el tiempo, puedes calcular aproximadamente la tasa de rendimiento.
+
+#r * n = 72
+
+#r (o también puede ser expresado como “i”) = tasa de interés o tasa de rendimiento
+
+#n = número de años
+
+#Años necesarios para duplicar una inversión a “x” tasa de rendimiento:
+#= 72 / r (tasa de rendimiento)
+
+#Tasa de rendimiento necesaria para duplicar la inversión a “x” años:
+#= 72 / n (número de años)
