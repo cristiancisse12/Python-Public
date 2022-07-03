@@ -1,0 +1,18 @@
+import math
+
+# Ejercicio 6 * 5^3 / 5 div 3
+print(160%27)
+print(((6*(pow(5,3)))/5)/3)                                         #Jerarquía
+                                                                    #Potencia
+# Ejercicio 4*2*(160 mod 3^3) div 5*13-28                           #Mult,Divi,Mód,Div Entera
+print(4*2*(160 % pow(3,3)) / 5*13-28)                               #Suma, resta
+
+# Ejercicio 15/3*(7+(68-15*33+(45^2/5)/3)/2)+19
+print(15/3*(7+(68-15*33+(pow (45,2)/5)/3)/2)+19)
+
+print(math.sqrt(25))
+print(pow(2,2))
+
+var = (((((8+(5+5))+((3*2)/2))*2)/2))
+print("Su potencia es: ",pow(var,2))
+print("Su raiz es: ",math.sqrt(var))
