@@ -1,0 +1,23 @@
+# inicio
+print('Con un valor entero, el usuario llenará los campos requeridos.')
+dia_a = int(input('¿Qué día es hoy? '))
+mes_a = int(input('¿Qué mes es? '))
+anio_a = int(input('¿Qué año es? '))
+print('Ahora con el mismo formato de los ejemplos anteriores, escribirá su fecha de nacimiento.')
+dia_n = int(input('Día de nacimiento: '))
+mes_n = int(input('Mes de nacimiento: '))
+anio_n = int(input('Año de nacimiento: '))
+edad = int(anio_a - anio_n)
+
+if mes_n > mes_a and dia_a < dia_n:
+    edad == int(edad-1)
+    print("La edad del usuario es: %d Años " % edad)
+
+elif mes_n == mes_a and dia_n == dia_a:
+    print((edad == (edad - 1)))
+    print("Felicidades, ¡Hoy es tu Cumpleaños!")
+    print("La edad del usuario es: " , edad ," Años")
+
+else:
+    print( "La edad del usuario es: " , edad , "Años")
+#Fin
