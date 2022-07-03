@@ -1,0 +1,19 @@
+#Este programa te dirá si el año es biciesto o no
+
+#Los años biciestos son divisibles entre 4 (como 2004,2008,etc.)
+#Excepto si son divisibles entre 100 como por ejemplo 2100, 2200
+#Excepto si es divisible entre 400, entonces sí (como 2000, 2400)
+
+# inicio
+ingresar_a = input('(Ingrese un año: )', unsafe=True)
+if ((ingresar_a % 4) == 0):
+    if ((ingresar_a % 100) == 0):
+        if ((ingresar_a % 400) == 0):
+            print('(El año es bisiesto)')
+        else:
+            print('(El año no es bisiesto)')
+    else:
+        print('(El año es bisiesto)')
+else:
+    print('(El año no es bisiesto)')
+# fin
